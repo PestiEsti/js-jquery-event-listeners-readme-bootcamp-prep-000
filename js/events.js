@@ -2,6 +2,10 @@
 function getIt() {
   alert("Hey!");
 }
+
+function frameIt() {
+  
+}
 $(document).ready(function(){
 
 // call functions here
