@@ -18,7 +18,7 @@ $(document).ready(function(){
     $('p').on("click", getIt());
     $('img').on("load", frameIt());
     $('input').on("keydown", function(key) {
-      if(key.which == 83){
+      if(key.which == 71){
       pressIt();
   }
     })
