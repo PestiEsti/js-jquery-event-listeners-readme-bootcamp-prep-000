@@ -8,6 +8,9 @@ function frameIt() {
 }
 
 function pressIt() {
+  if(key.which == 71){
+      pressIt();
+  }
   alert('hey! You pressed g!')
 }
 
@@ -17,11 +20,7 @@ $(document).ready(function(){
    {
     $('p').on("click", getIt());
     $('img').on("load", frameIt());
-    $('input').on("keydown", function(key) {
-      if(key.which == 71){
-      pressIt();
-  }
-    })
+    $('input').on("keydown", pressIt());
   }
 });
 
