@@ -4,7 +4,7 @@ function getIt() {
 }
 
 function frameIt() {
-  
+  $('img').addclass
 }
 $(document).ready(function(){
 
