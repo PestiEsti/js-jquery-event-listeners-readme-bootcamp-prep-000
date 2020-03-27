@@ -6,6 +6,6 @@ $(document).ready(function(){
 
 // call functions here
    {
-    $('p').on("click", getIt(){});
+    $('p').on("click", getIt());
   }
 });
