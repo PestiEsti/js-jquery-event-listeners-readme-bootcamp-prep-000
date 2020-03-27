@@ -9,7 +9,7 @@ function frameIt() {
 
 function pressIt(key) {
   if(key.which == 71){
-      alert('hey! You pressed g!')
+    alert('hey! You pressed g!')
   }
   
 }
