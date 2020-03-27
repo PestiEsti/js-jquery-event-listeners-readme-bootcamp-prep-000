@@ -7,7 +7,7 @@ function frameIt() {
   $('img').addClass("tasty");
 }
 
-function pressIt() {
+function pressIt(key) {
   if(key.which == 71){
       pressIt();
   }
@@ -20,7 +20,7 @@ $(document).ready(function(){
    {
     $('p').on("click", getIt());
     $('img').on("load", frameIt());
-    $('input').on("keydown", pressIt());
+    $('input').on("keydown", pressIt(key));
   }
 });
 
