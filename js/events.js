@@ -9,9 +9,9 @@ function frameIt() {
 
 function pressIt(key) {
   if(key.which == 71){
-      pressIt();
+      alert('hey! You pressed g!')
   }
-  alert('hey! You pressed g!')
+  
 }
 
 $(document).ready(function(){
